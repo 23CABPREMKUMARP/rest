@@ -1,10 +1,12 @@
 import { Button, styled, alpha } from '@mui/material';
 
 export const StyledButton = styled(Button)(({ theme }) => ({
-  color: theme.palette.resume[50],
-  borderColor: alpha(theme.palette.resume[50], 0.8),
+  color: '#E91E63', // Pink text fill
+  borderColor: alpha('#00FF00', 0.8), // Green border
+  fontWeight: 600,
+  textTransform: 'none',
   ':hover': {
-    borderColor: theme.palette.resume[50],
-    backgroundColor: alpha(theme.palette.resume[50], 0.04),
+    borderColor: '#00FF00', // Solid green border on hover
+    backgroundColor: alpha('#00FF00', 0.04), // Slight green background on hover
   },
 }));

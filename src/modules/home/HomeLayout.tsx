@@ -21,8 +21,8 @@ const HomeLayout = () => {
           muted
           loop
           playsInline
-          className="object-cover w-full h-full"
-          src="hero-1.mp4"
+className="object-contain w-screen h-screen"
+          src="Blue Under the Sea Documentary Opening Intro Video.mp4"
         />
 <div className="absolute inset-0 bg-transparent"></div>
       </div>
@@ -32,22 +32,30 @@ const HomeLayout = () => {
         <Link href="/">
           <Image src="/icons/resume-icon.png" alt="logo" width={36} height={36} />
         </Link>
-        <div className="flex gap-4">
-          <Link href="/builder"><StyledButton variant="text">Editor</StyledButton></Link>
-          <Link href="#contribute"><StyledButton variant="text">Contribute</StyledButton></Link>
-          <Link href="#about-us"><StyledButton variant="text">About Me</StyledButton></Link>
-          <a href="https://github.com/23CABPREMKUMARP" target="_blank" rel="noreferrer">
-            <BsGithub className="h-6 w-6 text-white" />
-          </a>
-        </div>
+       <div className="flex gap-4 p-4 items-center">
+  <Link href="/builder">
+    <StyledButton variant="text">Editor</StyledButton>
+  </Link>
+  <Link href="#contribute">
+    <StyledButton variant="text">Contribute</StyledButton>
+  </Link>
+  <Link href="#about-us">
+    <StyledButton variant="text">About Me</StyledButton>
+  </Link>
+
+  <a href="https://github.com/23CABPREMKUMARP" target="_blank" rel="noreferrer">
+    <BsGithub className="h-6 w-6 text-white" />
+  </a>
+</div>
+
       </nav>
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center text-white px-4 pt-28">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Build Your Professional Resume</h1>
-        <p className="text-lg md:text-xl max-w-2xl mb-6">Create beautiful, recruiter-ready resumes effortlessly with our modern builder.</p>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4"></h1>
+        <p className="text-lg md:text-xl max-w-2xl mb-6"></p>
         <Link href="/builder">
-          <Button variant="contained" className="bg-blue-600 hover:bg-blue-700">Start Building</Button>
+          <Button variant="contained" className="bg-blue-600 hover:bg-blue-700">Start Building Your Resume</Button>
         </Link>
       </section>
 
@@ -77,17 +85,20 @@ const HomeLayout = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-4">Meet the Developer</h2>
           <p className="text-center text-gray-600 mb-10">
-            A passionate team of developers building open-source tools for students and professionals.
+            A passionate developer building open-source tools for students and professionals.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <Person />
           </div>
+          
         </div>
+        
       </section>
+      
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-6 text-center">
-        © 2025 Premkumar | Open Source Resume Builder
+<footer className="bg-transparent text-black text-[25px] py-6 text-center">
+        © 2025 Premkumar | Resume Builder License By LicenseSpring.
       </footer>
     </motion.div>
   );
