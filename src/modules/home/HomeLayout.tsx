@@ -22,7 +22,7 @@ const HomeLayout = () => {
           loop
           playsInline
 className="object-contain w-screen h-screen"
-          src="Blue Under the Sea Documentary Opening Intro Video.mp4"
+          src="document_6197109346761970839.mp4"
         />
 <div className="absolute inset-0 bg-transparent"></div>
       </div>
