@@ -1,7 +1,7 @@
 'use client';
 
-import { NavBarActions, StyledButton } from '../builder/nav-bar/atoms';
-import { motion, useAnimation } from 'framer-motion';
+import { StyledButton } from '../builder/nav-bar/atoms';
+import { motion } from 'framer-motion';
 import { BsGithub } from 'react-icons/bs';
 import { Button } from '@mui/material';
 import FeatureSection from './components/Feature';
@@ -10,8 +10,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const HomeLayout = () => {
-  const controls = useAnimation();
-
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="relative">
       {/* Background Layer */}
@@ -43,7 +41,6 @@ const HomeLayout = () => {
           <Link href="#about-us">
             <StyledButton variant="text">About Me</StyledButton>
           </Link>
-
           <a href="https://github.com/23CABPREMKUMARP" target="_blank" rel="noreferrer">
             <BsGithub className="h-6 w-6 text-white" />
           </a>
@@ -53,13 +50,13 @@ const HomeLayout = () => {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center text-white px-4 pt-28">
         <h1 className="text-4xl md:text-6xl font-bold mb-4"></h1>
+
         {/* Neon Quote Block */}
         <div className="absolute top-60 left-1/2 transform -translate-x-1/2 z-10 px-4 text-center">
           <p className="text-white text-xl md:text-2xl font-semibold max-w-3xl mx-auto neon-text">
-            "Build with purpose. Apply with confidence,
-            <br />
-            No design skills? No problem. Just powerful resumes, <br />
-            From template to interview — build your career in minutes."
+            &quot;Build with purpose. Apply with confidence,&quot; <br />
+            &quot;No design skills? No problem. Just powerful resumes,&quot; <br />
+            &quot;From template to interview — build your career in minutes.&quot;
           </p>
         </div>
 
