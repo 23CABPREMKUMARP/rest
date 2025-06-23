@@ -6,7 +6,8 @@ const persons = [
     role: 'FULL STACK DEVELOPER',
     avatar: '/icons/photo_6194857547404527379_y.jpg',
     github: 'https://github.com/23CABPREMKUMARP',
-    linkedin: 'https://www.linkedin.com/in/premkumar-perumal-6a1b27285/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    linkedin:
+      'https://www.linkedin.com/in/premkumar-perumal-6a1b27285/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     instagram: 'https://www.instagram.com/mr.premofficial_11?igsh=OGQ5ZDc2ODk2ZA%3D%3D',
   },
 ];

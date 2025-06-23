@@ -1,11 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 function FeatureSection() {
   return (
     <>
-
       <FeatureCard>
         <CardPinnnedIcon>
           <Image src="/icons/style.svg" alt="style" height="56" width="56" />

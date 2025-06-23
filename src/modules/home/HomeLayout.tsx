@@ -21,10 +21,11 @@ const HomeLayout = () => {
           muted
           loop
           playsInline
-className="object-contain w-screen h-screen"
-          src="document_6197109346761970839.mp4"
+          className="object-contain w-screen h-screen"
+          src="templates/106421-673008062_small.mp4"
         />
-<div className="absolute inset-0 bg-transparent"></div>
+        <p>ddd</p>
+        <div className="absolute inset-0 bg-transparent"></div>
       </div>
 
       {/* Navbar */}
@@ -32,30 +33,40 @@ className="object-contain w-screen h-screen"
         <Link href="/">
           <Image src="/icons/resume-icon.png" alt="logo" width={36} height={36} />
         </Link>
-       <div className="flex gap-4 p-4 items-center">
-  <Link href="/builder">
-    <StyledButton variant="text">Editor</StyledButton>
-  </Link>
-  <Link href="#contribute">
-    <StyledButton variant="text">Contribute</StyledButton>
-  </Link>
-  <Link href="#about-us">
-    <StyledButton variant="text">About Me</StyledButton>
-  </Link>
+        <div className="flex gap-4 p-4 items-center">
+          <Link href="/builder">
+            <StyledButton variant="text">Editor</StyledButton>
+          </Link>
+          <Link href="#contribute">
+            <StyledButton variant="text">Contribute</StyledButton>
+          </Link>
+          <Link href="#about-us">
+            <StyledButton variant="text">About Me</StyledButton>
+          </Link>
 
-  <a href="https://github.com/23CABPREMKUMARP" target="_blank" rel="noreferrer">
-    <BsGithub className="h-6 w-6 text-white" />
-  </a>
-</div>
-
+          <a href="https://github.com/23CABPREMKUMARP" target="_blank" rel="noreferrer">
+            <BsGithub className="h-6 w-6 text-white" />
+          </a>
+        </div>
       </nav>
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center text-white px-4 pt-28">
         <h1 className="text-4xl md:text-6xl font-bold mb-4"></h1>
-        <p className="text-lg md:text-xl max-w-2xl mb-6"></p>
+        {/* Neon Quote Block */}
+        <div className="absolute top-60 left-1/2 transform -translate-x-1/2 z-10 px-4 text-center">
+          <p className="text-white text-xl md:text-2xl font-semibold max-w-3xl mx-auto neon-text">
+            "Build with purpose. Apply with confidence,
+            <br />
+            No design skills? No problem. Just powerful resumes, <br />
+            From template to interview — build your career in minutes."
+          </p>
+        </div>
+
         <Link href="/builder">
-          <Button variant="contained" className="bg-blue-600 hover:bg-blue-700">Start Building Your Resume</Button>
+          <Button variant="contained" className="bg-blue-600 hover:bg-blue-700">
+            Start Building Your Resume
+          </Button>
         </Link>
       </section>
 
@@ -70,12 +81,20 @@ className="object-contain w-screen h-screen"
       </section>
 
       {/* Contribute Section */}
-      <section id="contribute" className="bg-gradient-to-r from-blue-100 via-blue-50 to-white py-20 px-4">
+      <section
+        id="contribute"
+        className="bg-gradient-to-r from-blue-100 via-blue-50 to-white py-20 px-4"
+      >
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-2xl font-semibold mb-4">Want to contribute a new template?</h2>
-          <p className="mb-6">If you love React and design, contribute your own resume templates to our open-source project.</p>
+          <p className="mb-6">
+            If you love React and design, contribute your own resume templates to our open-source
+            project.
+          </p>
           <a href="https://github.com/23CABPREMKUMARP" target="_blank" rel="noreferrer">
-            <Button variant="contained" className="bg-blue-600 hover:bg-blue-700">Contribute on GitHub</Button>
+            <Button variant="contained" className="bg-blue-600 hover:bg-blue-700">
+              Contribute on GitHub
+            </Button>
           </a>
         </div>
       </section>
@@ -90,14 +109,11 @@ className="object-contain w-screen h-screen"
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <Person />
           </div>
-          
         </div>
-        
       </section>
-      
 
       {/* Footer */}
-<footer className="bg-transparent text-black text-[25px] py-6 text-center">
+      <footer className="bg-transparent text-black text-[25px] py-6 text-center">
         © 2025 Premkumar | Resume Builder License By LicenseSpring.
       </footer>
     </motion.div>

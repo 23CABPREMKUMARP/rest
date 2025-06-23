@@ -1,57 +1,57 @@
 {
   "basics": {
-    "name": "Jane Doe",
-    "label": "Frontend Engineer",
-    "image": "https://randomuser.me/api/portraits/men/18.jpg",
-    "email": "janedoe@email.com",
-    "phone": "+91 9876543210",
-    "url": "https://e-resume.vercel.app",
+    "name": "Premkumar Perumal",
+    "label": "Full Stack Developer",
+    "image": "icons/photo_6253656139313038787_y-2.jpg",
+    "email": "premkumarperumal232@gmail.com",
+    "phone": "+91 8438949741",
+    "url": "https://prem6.netlify.app",
     "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Bengaluru",
+      "city": "Coimbatore",
       "countryCode": "",
       "region": ""
     },
-    "relExp": "4 years",
-    "totalExp": "6 Years",
+    "relExp": "1 years",
+    "totalExp": "1 Years",
     "objective": "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
     "profiles": [
       {
         "network": "linkedin",
-        "username": "sadanandpai",
-        "url": "https://www.linkedin.com/in/sadanandpai/"
+        "username": "Premkumar Perumal",
+        "url": "https://www.linkedin.com/in/premkumar-perumal-6a1b27285/"
       },
       {
         "network": "twitter",
-        "username": "sadanand_pai",
-        "url": "https://x.com/sadanand_pai"
+        "username": "Premkumar Perumal",
+        "url": "https://x.com/mrpremofficial?t=wlRPnvPHk2MoV3CwB-jmeg&s=09"
       },
       {
         "network": "github",
-        "username": "sadanandpai",
-        "url": "https://github.com/sadanandpai/"
+        "username": "Premkumar Perumal",
+        "url": "https://github.com/23CABPREMKUMARP?tab=repositories"
       },
       {
         "network": "hackerrank",
-        "username": "paicube",
-        "url": "https://www.hackerrank.com/paicube/"
+        "username": "Premkumar Perumal",
+        "url": "https://www.hackerrank.com"
       },
       {
-        "network": "hackerearth",
-        "username": "sadanandpai",
-        "url": "https://www.hackerearth.com/sadanandpai/"
+        "network": "instagram",
+        "username": "Premkumar Perumal",
+        "url": "https://www.instagram.com/mr.premofficial_11?igsh=OGQ5ZDc2ODk2ZA%3D%3D"
       },
       {
         "network": "codechef",
-        "username": "sadanandpai",
-        "url": "https://www.codechef.com/sadanandpai/"
+        "username": "Premkumar Perumal",
+        "url": "https://www.codechef.com"
       },
       {
         "network": "leetcode",
-        "username": "sadanandpai",
-        "url": "https://leetcode.com/sadanandpai/"
+        "username": "Premkumar Perumal",
+        "url": "https://leetcode.com/"
       }
     ]
   },
