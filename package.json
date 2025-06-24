@@ -3,13 +3,12 @@
   "version": "2.1.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint .",
-    "prepare": "husky install"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "prepare": "if [ \"$NODE_ENV\" != \"production\" ]; then husky install; fi"
+},
   "dependencies": {
     "@base-ui-components/react": "^1.0.0-beta.0",
     "@date-io/dayjs": "^3.0.0",
